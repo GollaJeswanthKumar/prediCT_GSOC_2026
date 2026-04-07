@@ -1,0 +1,20 @@
+{
+  "train": {
+    "patients": 35,
+    "total_slices": 4918,
+    "positive_slices": 4232,
+    "positive_ratio": 0.8605
+  },
+  "val": {
+    "patients": 7,
+    "total_slices": 990,
+    "positive_slices": 866,
+    "positive_ratio": 0.8747
+  },
+  "test": {
+    "patients": 8,
+    "total_slices": 1116,
+    "positive_slices": 951,
+    "positive_ratio": 0.8522
+  }
+}

@@ -1,0 +1,11 @@
+# requirements.txt
+numpy==1.26.4            
+pandas==2.2.2
+matplotlib==3.8.4
+scikit-learn==1.4.2
+nibabel==5.2.1            # Handles the .nii.gz masks safely
+pydicom>=3.0.0  # Reads the raw COCA DICOM files
+TotalSegmentator==2.4.0   # Stable release that plays nicely with numpy 1.x
+albumentations==1.4.8     # For safe medical image augmentations
+tqdm==4.66.4              # Progress bars
+opencv-python==4.9.0.80   # Required for the cv2.resize operations
