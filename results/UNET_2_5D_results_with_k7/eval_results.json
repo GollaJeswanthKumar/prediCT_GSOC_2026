@@ -1,0 +1,13 @@
+{
+  "dice": {
+    "num_slices": 1116,
+    "mean_dice": 0.46628532161883557,
+    "std_dice": 0.3194417002769634,
+    "min_dice": 7.375175470336615e-11,
+    "max_dice": 1.0
+  },
+  "timing": {
+    "mean_ms_per_slice": 4.127685667481273,
+    "std_ms_per_slice": 0.10656443153228091
+  }
+}

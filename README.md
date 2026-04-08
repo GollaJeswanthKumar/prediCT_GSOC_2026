@@ -57,14 +57,14 @@ DICOM CT Scans
 * Updated Dice Score : **~0.484 (After training 2DU-net upon 30 Epochs)**
 * Updated Dice Score : **~0.47 (After training 2.5DU-net with k = 3 upon 30 Epochs)**
 * Updated Dice Score : **~0.446 (After training 2.5DU-net with k = 5 upon 40 Epochs)**
+* Updated Dice Score : **~0.460 (After training 2.5DU-net with k = 7 upon 40 Epochs)**
 
 ---
 
 ## Ongoing Improvements
 
-* So for 2.5D unet I used [slice-1,slice,slice+1] slices so that It will learn neighbouring slices context as well
-* Used K = 3,5 and Epochs = 30,40 
-* May be 3,5 slices and 30,40 epochs are not sufficient so thinking to increase K = 7 and Epochs = 40 or 50
+* Trying to improve the augmentations and datapipeline 
+* Try new datapipeline with Different models like 2D Unet and 2.5D Unet (with K = 3,5,7) 
 
 ---
 
